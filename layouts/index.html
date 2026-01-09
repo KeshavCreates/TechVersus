@@ -1,0 +1,91 @@
+{{ define "head_custom" }}
+<style>
+    /* Grid Container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Battle Card */
+    .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 2rem;
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        border-color: #2563eb;
+        /* Primary var not avail in this scope if unused, but it is in :root */
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        line-height: 1.3;
+    }
+
+    .vs-badge {
+        display: inline-block;
+        background: #eff6ff;
+        color: #2563eb;
+        font-size: 0.75rem;
+        font-weight: 800;
+        padding: 0.25rem 0.75rem;
+        border-radius: 50px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    .card-footer {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.875rem;
+        color: #2563eb;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+{{ end }}
+
+{{ define "header" }}
+<header
+    style="background: var(--surface); border-bottom: 1px solid var(--border); padding: 4rem 1rem; text-align: center;">
+    <h1 style="font-size: 3rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 1rem;">Tech Versus</h1>
+    <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto;">The world's largest
+        automated database of tech specs. Compare prices, batteries, and performance instantly.</p>
+</header>
+{{ end }}
+
+{{ define "main" }}
+<div class="container grid-container">
+    {{ range .Site.RegularPages }}
+    <a href="{{ .RelPermalink }}" class="card">
+        <div>
+            <span class="vs-badge">Comparison</span>
+            <div class="card-title">{{ .Title }}</div>
+            <div style="color: var(--text-muted); font-size: 0.9rem;">
+                See the full breakdown of specs, battery life, and pricing.
+            </div>
+        </div>
+        <div class="card-footer">
+            View Showdown →
+        </div>
+    </a>
+    {{ end }}
+</div>
+{{ end }}

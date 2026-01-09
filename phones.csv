@@ -1,0 +1,81 @@
+model_name,brand,price,battery_mah,screen_size,camera_mp,processor
+iPhone 17 Pro Max,Apple,"$1,199.00",4800,"6.9""",48,A19 Pro
+iPhone 17 Pro,Apple,$999.00,3700,"6.3""",48,A19 Pro
+iPhone 17 Air / Slim,Apple,"$1,299.00",3500,"6.6""",48,A19
+iPhone 17,Apple,$799.00,3600,"6.3""",48,A19
+iPhone SE (4th Gen),Apple,$499.00,3279,"6.1""",48,A18
+iPhone 16 Pro Max,Apple,"$1,199.00",4685,"6.9""",48,A18 Pro
+iPhone 16 Pro,Apple,$999.00,3582,"6.3""",48,A18 Pro
+iPhone 16 Plus,Apple,$899.00,4674,"6.7""",48,A18
+iPhone 16,Apple,$799.00,3561,"6.1""",48,A18
+iPhone 15 Pro Max,Apple,"$1,199.00",4441,"6.7""",48,A17 Pro
+iPhone 15 Pro,Apple,$999.00,3274,"6.1""",48,A17 Pro
+iPhone 15 Plus,Apple,$899.00,4383,"6.7""",48,A16 Bionic
+iPhone 15,Apple,$799.00,3349,"6.1""",48,A16 Bionic
+iPhone 14 Pro Max,Apple,"$1,099.00",4323,"6.7""",48,A16 Bionic
+iPhone 14 Pro,Apple,$999.00,3200,"6.1""",48,A16 Bionic
+iPhone 14 Plus,Apple,$899.00,4325,"6.7""",12,A15 Bionic
+iPhone 14,Apple,$799.00,3279,"6.1""",12,A15 Bionic
+iPhone 13 Pro Max,Apple,"$1,099.00",4352,"6.7""",12,A15 Bionic
+iPhone 13 Pro,Apple,$999.00,3095,"6.1""",12,A15 Bionic
+iPhone 13,Apple,$799.00,3240,"6.1""",12,A15 Bionic
+iPhone 13 mini,Apple,$699.00,2438,"5.4""",12,A15 Bionic
+iPhone 12 Pro Max,Apple,"$1,099.00",3687,"6.7""",12,A14 Bionic
+iPhone 12 Pro,Apple,$999.00,2815,"6.1""",12,A14 Bionic
+iPhone 12,Apple,$799.00,2815,"6.1""",12,A14 Bionic
+iPhone 12 mini,Apple,$699.00,2227,"5.4""",12,A14 Bionic
+iPhone 11 Pro Max,Apple,"$1,099.00",3969,"6.5""",12,A13 Bionic
+iPhone 11 Pro,Apple,$999.00,3046,"5.8""",12,A13 Bionic
+iPhone 11,Apple,$699.00,3110,"6.1""",12,A13 Bionic
+Galaxy S26 Ultra,Samsung,"$1,299.00",5100,"6.9""",200,Snapdragon 8 Elite Gen 2
+Galaxy S26+,Samsung,$999.00,4900,"6.7""",50,Snapdragon 8 Elite Gen 2
+Galaxy S26,Samsung,$799.00,4100,"6.2""",50,Snapdragon 8 Elite Gen 2
+Galaxy S25 Ultra,Samsung,"$1,299.00",5000,"6.9""",200,Snapdragon 8 Elite
+Galaxy S25+,Samsung,$999.00,4900,"6.7""",50,Snapdragon 8 Elite
+Galaxy S25,Samsung,$799.00,4000,"6.2""",50,Snapdragon 8 Elite
+Galaxy Z Fold 7,Samsung,"$1,799.00",4600,"7.6""",200,Snapdragon 8 Elite
+Galaxy Z Flip 7,Samsung,$999.00,4200,"6.7""",50,Snapdragon 8 Elite
+Galaxy S24 Ultra,Samsung,"$1,299.00",5000,"6.8""",200,Snapdragon 8 Gen 3
+Galaxy S24+,Samsung,$999.00,4900,"6.7""",50,Exynos 2400
+Galaxy S24,Samsung,$799.00,4000,"6.2""",50,Exynos 2400
+Galaxy S23 Ultra,Samsung,"$1,199.00",5000,"6.8""",200,Snapdragon 8 Gen 2
+Galaxy S23+,Samsung,$999.00,4700,"6.6""",50,Snapdragon 8 Gen 2
+Galaxy S23,Samsung,$799.00,3900,"6.1""",50,Snapdragon 8 Gen 2
+Galaxy S22 Ultra,Samsung,"$1,199.00",5000,"6.8""",108,Exynos 2200
+Galaxy S22+,Samsung,$999.00,4500,"6.6""",50,Exynos 2200
+Galaxy S22,Samsung,$799.00,3700,"6.1""",50,Exynos 2200
+Pixel 10 Pro XL,Google,"$1,099.00",5200,"6.8""",50,Google Tensor G5
+Pixel 10 Pro,Google,$999.00,4800,"6.3""",50,Google Tensor G5
+Pixel 10,Google,$799.00,4700,"6.3""",50,Google Tensor G5
+Pixel 9a,Google,$499.00,4500,"6.1""",64,Google Tensor G4
+Pixel 9 Pro XL,Google,"$1,099.00",5060,"6.8""",50,Google Tensor G4
+Pixel 9 Pro,Google,$999.00,4700,"6.3""",50,Google Tensor G4
+Pixel 9,Google,$799.00,4700,"6.3""",50,Google Tensor G4
+Pixel Fold 2,Google,"$1,799.00",4650,"8.0""",48,Google Tensor G4
+OnePlus 14,OnePlus,$849.00,6000,"6.82""",50,Snapdragon 8 Elite Gen 2
+OnePlus 13,OnePlus,$799.00,5400,"6.82""",50,Snapdragon 8 Elite
+OnePlus 12,OnePlus,$799.00,5400,"6.82""",50,Snapdragon 8 Gen 3
+OnePlus 11,OnePlus,$699.00,5000,"6.7""",50,Snapdragon 8 Gen 2
+Xiaomi 16 Ultra,Xiaomi,"$1,499.00",5500,"6.73""",50,Snapdragon 8 Elite Gen 2
+Xiaomi 16,Xiaomi,"$1,099.00",5000,"6.36""",50,Snapdragon 8 Elite Gen 2
+Xiaomi 15 Ultra,Xiaomi,"$1,499.00",5300,"6.73""",50,Snapdragon 8 Elite
+Xiaomi 15,Xiaomi,"$1,099.00",4800,"6.36""",50,Snapdragon 8 Elite
+Xiaomi 14 Ultra,Xiaomi,"$1,499.00",5000,"6.73""",50,Snapdragon 8 Gen 3
+Xiaomi 14,Xiaomi,"$1,099.00",4610,"6.36""",50,Snapdragon 8 Gen 3
+Nothing Phone (3),Nothing,$599.00,5000,"6.7""",50,Snapdragon 8s Gen 4
+Nothing Phone (2),Nothing,$599.00,4700,"6.7""",50,Snapdragon 8+ Gen 1
+Nothing Phone (2a),Nothing,$349.00,5000,"6.7""",50,Dimensity 7200 Pro
+Vivo X200 Pro,Vivo,"$1,000.00",5500,"6.78""",200,Dimensity 9400
+Vivo X100 Ultra,Vivo,"$1,100.00",5500,"6.78""",50,Snapdragon 8 Gen 3
+Oppo Find X8 Ultra,Oppo,"$1,100.00",5500,"6.82""",50,Snapdragon 8 Elite
+Oppo Find X7 Ultra,Oppo,$840.00,5000,"6.82""",50,Snapdragon 8 Gen 3
+Realme GT 7 Pro,Realme,$600.00,6500,"6.78""",50,Snapdragon 8 Elite
+Realme GT 5 Pro,Realme,$470.00,5400,"6.78""",50,Snapdragon 8 Gen 3
+Redmi K80 Pro,Redmi,$550.00,6000,"6.67""",50,Snapdragon 8 Elite
+Redmi Note 14 Pro+,Redmi,$400.00,6200,"6.67""",200,Dimensity 7350
+ROG Phone 9 Pro,Asus,"$1,199.00",5800,"6.78""",50,Snapdragon 8 Elite
+Motorola Edge 60 Ultra,Motorola,$999.00,5000,"6.7""",50,Snapdragon 8 Elite
+Sony Xperia 1 VII,Sony,"$1,399.00",5000,"6.5""",48,Snapdragon 8 Elite
+Huawei Mate 70 Pro,Huawei,"$1,200.00",5500,"6.82""",50,Kirin 9100
+Honor Magic 7 Pro,Honor,"$1,100.00",5850,"6.8""",50,Snapdragon 8 Elite
+ZTE Nubia Z70 Ultra,ZTE,$850.00,6000,"6.85""",50,Snapdragon 8 Elite

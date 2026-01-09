@@ -1,0 +1,15 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tech Versus: Spec Battles'
+theme = 'ananke'
+
+[params]
+  description = "The world's largest database of smartphone comparisons."
+  # This sets a nice dark background for the header
+  background_color_class = "bg-near-black"
+  recent_posts_number = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default " en" }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description"
+        content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:description"
+        content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="twitter:description"
+        content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        :root {
+            --primary: #2563eb;
+            /* Tech Blue */
+            --surface: #ffffff;
+            /* White Card */
+            --background: #f3f4f6;
+            /* Light Gray Bg */
+            --text-main: #111827;
+            /* Almost Black */
+            --text-muted: #6b7280;
+            /* Gray Text */
+            --border: #e5e7eb;
+            /* Subtle Border */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Navbar / Header */
+        header,
+        nav {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+        }
+
+        /* Links */
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Shared Components */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+    </style>
+    {{ block "head_custom" . }}{{ end }}
+</head>
+
+<body>
+
+    {{ block "header" . }}
+    <nav
+        style="padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100;">
+        <a href="/" style="font-weight: 800; font-size: 1.25rem;">Tech<span>Versus</span></a>
+        <a href="#" style="font-size: 0.9rem; color: var(--text-muted);">About</a>
+    </nav>
+    {{ end }}
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer
+        style="text-align: center; margin-top: 3rem; padding-bottom: 2rem; color: var(--text-muted); font-size: 0.875rem;">
+        &copy; {{ now.Year }} {{ .Site.Title }}. Generated automatically.
+    </footer>
+
+</body>
+
+</html>
